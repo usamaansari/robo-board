@@ -9,8 +9,18 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@nivo/core": "^0.84.0",
+    "apexcharts": "^3.45.1",
+    "axios": "^1.6.5",
+    "bcrypt": "^5.1.1",
+    "mongoose": "^8.0.3",
+    "next": "14.0.2",
+    "next-auth": "^5.0.0-beta.3",
     "react": "^18",
+    "react-apexcharts": "^1.4.1",
     "react-dom": "^18",
-    "next": "14.0.2"
+    "react-icons": "^4.11.0",
+    "react-player": "^2.14.1",
+    "recharts": "^2.9.3"
   }
 }
