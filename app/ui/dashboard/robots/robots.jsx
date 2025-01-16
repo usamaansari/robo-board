@@ -2,10 +2,10 @@
 
 import Image from 'next/image'
 import React, { useEffect, useState } from 'react'
-import styles from "./transactions.module.css"
+import styles from "./robots.module.css"
 import axios from 'axios';
 
-const Transactions = () => {
+const Robots = () => {
     const [agribots, setAgribots] = useState([]);
 
     const getAgribots = async() => {
@@ -67,4 +67,4 @@ const Transactions = () => {
   )
 }
 
-export default Transactions
+export default Robots

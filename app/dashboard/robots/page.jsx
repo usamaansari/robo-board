@@ -9,7 +9,8 @@ import { fetchUsers } from "@/app/lib/data";
 import Image from "next/image";
 import { deleteUser } from "@/app/lib/actions";
 import axios from 'axios';
-import Transactions from "@/app/ui/dashboard/transactions/transactions";
+
+import Robots from "@/app/ui/dashboard/robots/robots";
 
 /*
 const getAgribots = async() => {
@@ -42,8 +43,13 @@ const RobotsPage = async() => {
 
   return (
     <div className={styles.container}>
-      
-        <Transactions />
+      <div className={styles.top}>
+        <Search placeholder="Search for a product..." />
+        <Link href="/dashboard/robots/add">
+          <button className={styles.addButton}>Add New</button>
+        </Link>
+      </div>
+        <Robots />
            
     </div>
   );

@@ -16,11 +16,13 @@ const Rightbar = () => {
                     <MdPlayCircleFilled />
                 </button> <p> Live Robot </p>
                 </div>
-        <ReactPlayer url='https://youtu.be/LEz5ufduz1k' width='250px' height= '300px' controls />   
+        <ReactPlayer url='https://youtu.be/PeXokrkHEzw' width='250px' height= '300px' controls />   
             </div>
         </div>
     </div>
   )
 }
+
+
 
 export default Rightbar
